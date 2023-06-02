@@ -399,15 +399,21 @@ async def select_language(bot, query):
     if int(userid) not in [query.from_user.id, 0]:
         return await query.answer(script.ALRT_TXT.format(query.from_user.first_name), show_alert=True)
     btn = [[
-        InlineKeyboardButton("Sᴇʟᴇᴄᴛ Yᴏᴜʀ Dᴇꜱɪʀᴇᴅ Lᴀɴɢᴜᴀɢᴇ ↓", callback_data=f"lang#{userid}#unknown")
+        InlineKeyboardButton("Sᴇʟᴇᴄᴛ Yᴏᴜʀ Lᴀɴɢᴜᴀɢᴇ ↓", callback_data=f"lang#{userid}#unknown")
+    ],[
+        InlineKeyboardButton("Hɪɴᴅɪ", callback_data=f"lang#{userid}#hindi"),
+        InlineKeyboardButton("Hɪɴ", callback_data=f"lang#{userid}#hin")
     ],[
         InlineKeyboardButton("Eɴɢʟɪꜱʜ", callback_data=f"lang#{userid}#eng"),
-        InlineKeyboardButton("Tᴀᴍɪʟ", callback_data=f"lang#{userid}#tam"),
-        InlineKeyboardButton("Hɪɴᴅɪ", callback_data=f"lang#{userid}#hin")
+        InlineKeyboardButton("Eɴɢ", callback_data=f"lang#{userid}#english")
+    ],[
+        InlineKeyboardButton("Tᴀᴍɪʟ", callback_data=f"lang#{userid}#tamil"),
+        InlineKeyboardButton("Tᴀᴍ", callback_data=f"lang#{userid}#tam")
+    ],[
+        InlineKeyboardButton("Tᴇʟᴜɢᴜ", callback_data=f"lang#{userid}#telugu")
+        InlineKeyboardButton("Tᴇʟ", callback_data=f"lang#{userid}#tel")
     ],[
         InlineKeyboardButton("Kᴀɴɴᴀᴅᴀ", callback_data=f"lang#{userid}#kan"),
-        InlineKeyboardButton("Tᴇʟᴜɢᴜ", callback_data=f"lang#{userid}#tel")
-    ],[
         InlineKeyboardButton("Mᴀʟᴀʏᴀʟᴀᴍ", callback_data=f"lang#{userid}#mal")
     ],[
         InlineKeyboardButton("Mᴜʟᴛɪ Aᴜᴅɪᴏ", callback_data=f"lang#{userid}#multi"),
