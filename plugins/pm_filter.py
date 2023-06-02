@@ -410,7 +410,7 @@ async def select_language(bot, query):
         InlineKeyboardButton("Tᴀᴍɪʟ", callback_data=f"lang#{userid}#tamil"),
         InlineKeyboardButton("Tᴀᴍ", callback_data=f"lang#{userid}#tam")
     ],[
-        InlineKeyboardButton("Tᴇʟᴜɢᴜ", callback_data=f"lang#{userid}#telugu")
+        InlineKeyboardButton("Tᴇʟᴜɢᴜ", callback_data=f"lang#{userid}#telugu"),
         InlineKeyboardButton("Tᴇʟ", callback_data=f"lang#{userid}#tel")
     ],[
         InlineKeyboardButton("Kᴀɴɴᴀᴅᴀ", callback_data=f"lang#{userid}#kan"),
