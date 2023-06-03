@@ -153,7 +153,18 @@ Nᴀᴍᴇ - {}"""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
-    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
+    MELCOW_ENG = """<b>ʜᴇʏ, {}
+ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ {} ɢʀᴏᴜᴘ 
+
+Find Any Media ! if you need any movie then then enter the movie name + years. 👍
+
+Guys Enter Only movie Or Webseries Name like This 👇
+Pushpa ✅
+Pushpa 2021 ✅
+Pushpa in Hindi ❌
+Lucifer ✅
+Lucifer S01 ✅
+Lucifer all season ❌</b>"""
 
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
