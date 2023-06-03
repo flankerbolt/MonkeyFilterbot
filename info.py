@@ -46,6 +46,9 @@ DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
+# Command
+COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
+
 # Others
 IS_VERIFY = bool(environ.get('IS_VERIFY', False))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/c/1845700490/3")
