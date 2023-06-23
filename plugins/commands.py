@@ -289,7 +289,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('📧 🇺🇵🇩🇦🇹🇪 🇨🇭🇦🇳🇳🇪🇱', url=CHNL_LNK)
+                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                      ]
                     ]
                 )
@@ -340,7 +340,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('📧 🇺🇵🇩🇦🇹🇪 🇨🇭🇦🇳🇳🇪🇱', url=CHNL_LNK)
+              InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
              ]
             ]
         )
