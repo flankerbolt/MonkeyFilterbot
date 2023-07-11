@@ -173,7 +173,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('UPDATE CHANNEL', url=CHNL_LNK)
                          ]
                         ]
                     )
@@ -289,7 +289,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                      InlineKeyboardButton('UPDATE CHANNEL', url=CHNL_LNK)
                      ]
                     ]
                 )
