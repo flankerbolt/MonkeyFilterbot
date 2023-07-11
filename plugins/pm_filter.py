@@ -730,7 +730,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             reply_markup=InlineKeyboardMarkup(
                                 [
                                 [                                
-                                InlineKeyboardButton('📧 🇺🇵🇩🇦🇹🇪 🇨🇭🇦🇳🇳🇪🇱', url=CHNL_LNK)                            
+                                InlineKeyboardButton('UPDATE CHANNEL', url=CHNL_LNK)                            
                                 ]
                                 ]
                             )
